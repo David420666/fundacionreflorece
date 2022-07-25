@@ -134,7 +134,7 @@ p{
 	background-color: transparent;
 	border: none;
 	color:#582675;
-	padding: 20px;
+	padding: 15px;
 	text-align: center;
 	font-size: 16px;
 	cursor: pointer;
@@ -154,3 +154,23 @@ p{
 	height: 34rem;
 	margin-bottom: 3vh;
 }
+.btn-group1 .button2 {
+	background-color: #663485;
+	color: white;
+	border-style: none;
+	padding: 15px 32px;
+	text-decoration: none;
+	text-align: left;
+	font-size: 20px;
+	cursor: pointer;
+	width: 100%;
+	display: block;
+  }
+  
+  .btn-group1 .button2:not(:last-child) {
+	border-bottom: none; /* Prevent double borders */
+  }
+  
+  .btn-group1 .button2:hover {
+	background-color: #582675;
+  }
