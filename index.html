@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,300&family=Didact+Gothic&display=swap" rel="stylesheet"> 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
     <!-- Bootstrap CSS en mi carpeta -->
     <title>Fundación Reflorece</title>
   </head>
@@ -56,7 +57,7 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner animate__animated animate__bounce animate__bounceInDown">
     <div class="carousel-item active">
       <img src="images/slider-01.jpg" class="d-block w-100" alt="...">
     </div>
@@ -81,31 +82,31 @@
       <!-- Fin slider -->
       <div class="container-fluid">
       <div class="row">
-        <div class="col-5 naranja">
+        <div class="col-5 naranja wow animate__animated animate__bounce animate__bounceInUp">
           <img src="images/foto-05.jpg" alt="" height="100%">
         </div>
         <div class="col-md-7 purple">
           <a id="mision">
-          <aside class="row mision">
+          <aside class="row mision wow animate__animated animate__bounce animate__bounceInRight">
             <h1 style="color: white;">Misión</h1>
           </aside>
-          <div class="row">
+            <div class="row wow animate__animated animate__bounce animate__bounceInRight">
             <p style="color: #582675">Dar visibilidad acerca del acompañamiento que brindamos a las mujeres víctimas de violencia, tomando como base el elevado número de casos de violencia de género. Para esto, se busca implementar una campaña publicitaria en la cual se va lanzar un kit de piezas gráficas</p>
           </div>
         </a>
         <a id="vision">
-          <aside class="row mision">
+          <aside class="row mision wow animate__animated animate__bounce animate__bounceInRight">
             <h1 style="color: white">Visión</h1>
           </aside>
-          <div class="row">
+          <div class="row wow animate__animated animate__bounce animate__bounceInRight">
             <p style="color: #582675"> La fundación reflorece a corto plazo quiere lanzar una campaña de sensibilización y difusión en el barrio Patio Bonito, con el cual se espera tener mayor visibilidad acerca de las rutas de acción. A mediano plazo se espera tener cubrimiento completo del barrio y a largo plazo se espera tener cobertura de la localidad de Kennedy.</p>
           </div>
         </a>
         <a id="objetivos">
-          <aside class="row mision">
+          <aside class="row mision wow animate__animated animate__bounce animate__bounceInRight">
             <h1 style="color: white">Objetivos</h1>
           </aside>
-          <div class="row">
+          <div class="row wow animate__animated animate__bounce animate__bounceInRight">
             <p style="color: #582675"> La fundación florece se enfoca principalmente en dar mayor visibilidad y cubrimiento a los casos de violencia contra las mujeres entre 18-40  años del barrio Patio Bonito en la localidad de Kennedy, en donde el rol a desempeñar es conectar a dichas víctimas con las entidades de apoyo psicológico y jurídico diponibles por entidades como la secretaria de la mujer, comisaria de famila y el cai de policia del sector.</p>
           </div>
         </a>
@@ -131,12 +132,12 @@
           </section>
         </div> -->
       <div class="container-fluid">
-        <div class="row">
+        <div class="row wow animate__animated animate__bounce animate__bounceInDown">
           <div class="col-12">
             <div class="row libro">
               <h1 style="color: white">Manual de marca</h1>
             </div>
-            <div class="row libro2">
+            <div class="row libro2 ">
               <iframe src="magazine/index.html" frameborder="0" height="100%" width="100%"></iframe>
             </div>
           </div>
@@ -144,7 +145,7 @@
         <a id="servicios">
         <div class="row">
           <div class="col-12">
-            <div class="row libro">
+            <div class="row libro wow animate__animated animate__bounce animate__bounceInDown">
               <h1 style="color: white">Servicios</h1>
             </div>
             <div class="row libro2">
@@ -196,5 +197,9 @@
     </div>
          <!-- Bootstrap Bundle javascript local -->
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
